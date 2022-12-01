@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner in = new Scanner(new File("C:\\workarea\\workspace\\LeetCode\\src\\adventOfCode\\day01\\task01\\input"));
+        Scanner in = new Scanner(new File("src/day01/task01/input"));
 
         ArrayList<Integer> currentElf = new ArrayList<>();
         int maxCalories = 0;
